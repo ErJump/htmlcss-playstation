@@ -73,8 +73,15 @@
 }
 
 .ms_ps_plus_img{
-    
+    background-color: var(--ms_col_fourth);
 }
+
+/* ps-now */
+
+.ms_ps_now{
+    background-color: #161c3b;
+}
+
 /* general */
 
 .ms_registered{
@@ -97,6 +104,15 @@
 .ms_button_plus{
     background-color: #d9dadc !important;
     display: inline-block;
+    color: var(--ms_col_sec);
+    border: 0px solid black;
+}
+
+.ms_button_now{
+    background-color: white !important;
+    display: inline-block;
+    color: #161c3b;
+    border: 0px solid black;
 }
 
 .ms_title_size{
