@@ -65,7 +65,23 @@
     font-size: 1.1rem;
     margin-top: 20px;
 }
+
+/* ps plus */
+
+.ms_ps_plus{
+    background-color: var(--ms_col_fourth);
+}
+
+.ms_ps_plus_img{
+    
+}
 /* general */
+
+.ms_registered{
+    font-size: .9rem; 
+    line-height: 16px;
+    vertical-align: top;
+}
 
 .ms_button_red{
     background-color: var(--ms_col_third) !important;
@@ -74,8 +90,13 @@
 
 .ms_button_blue{
     background-color: var(--ms_col_sec) !important;
-    display: block;
-    width: 200px;
+    display: inline-block;
+    max-width: 180px;
+}
+
+.ms_button_plus{
+    background-color: #d9dadc !important;
+    display: inline-block;
 }
 
 .ms_title_size{
