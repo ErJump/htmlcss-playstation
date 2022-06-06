@@ -46,6 +46,25 @@
     outline: 3px solid var(--ms_col_sec);
 }
 
+/* hero */
+
+.ms_hero{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* games */
+
+.ms_new_games{
+    background-color: var(--ms_col_fifth);
+}
+
+.ms_text_games{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
 /* general */
 
 .ms_button_red{
