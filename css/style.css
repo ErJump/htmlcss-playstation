@@ -1,0 +1,42 @@
+*{
+    /* outline: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+    --ms_col_first: black;
+    --ms_col_sec: #0070D1;
+    --ms_col_third: #CD3D0F;
+    --ms_col_fourth: #BEBCBB;
+    --ms_col_fifth: #1F1F1F;
+}
+
+/* header */
+
+.ms_header_sony{
+    width: 100px;
+}
+
+.ms_dropdown_menu{
+    width: 100vw;
+    border-radius: 0!important;
+    margin-top: -0.5px !important;
+    border: 0 solid black !important; 
+}
+
+/* jumbo */
+
+.ms_jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    overflow-y: hidden;
+}
+
+.ms_jumbo_content{
+    margin-top: 350px;
+    margin-bottom: 70px;
+}
