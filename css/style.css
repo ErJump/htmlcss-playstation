@@ -113,29 +113,62 @@
     vertical-align: top;
 }
 
+.ms_login_button{
+    border: 3px solid rgba(0, 0, 0, 0) !important;
+}
+
+.ms_login_button:hover{
+    border: 3px solid white !important;
+    outline: 3px solid #1c1f23 !important;
+}
+
 .ms_button_red{
     background-color: var(--ms_col_third) !important;
     display: block;
+    border: 3px solid rgba(0, 0, 0, 0) !important;
+}
+
+.ms_button_red:hover{
+    border: 3px solid black !important;
+    outline: 3px solid var(--ms_col_third);
 }
 
 .ms_button_blue{
     background-color: var(--ms_col_sec) !important;
     display: inline-block;
-    max-width: 180px;
+    max-width: 190px;
+    border: 3px solid white !important;
+}
+
+.ms_button_blue:hover{
+    border: 3px solid white;
+    outline: 3px solid var(--ms_col_sec);
 }
 
 .ms_button_plus{
     background-color: #d9dadc !important;
     display: inline-block;
-    color: var(--ms_col_sec);
-    border: 0px solid black;
+    border: 3px solid #bebcbb;
+    color: #2d64e6;
+}
+
+.ms_button_plus:hover{
+    border: 3px solid #bebcbb;
+    outline: 3px solid #d9dadc;
+    color: #2d64e6;
 }
 
 .ms_button_now{
     background-color: white !important;
     display: inline-block;
     color: #161c3b;
-    border: 0px solid black;
+    border: 3px solid #161c3b;
+}
+
+.ms_button_now:hover{
+    border: 3px solid #161c3b;
+    outline: 3px solid white;
+    color: black;
 }
 
 .ms_title_size{
@@ -158,4 +191,49 @@
 .ms_container_small{
     max-width: 800px;
 }
-/* media */
+
+/* hover */
+
+.ms_img_hover{
+    transition: .5s;
+}
+
+.ms_img_hover:hover{
+    transform: translateY(-10px);
+}
+
+.ms_img_hover:hover img{
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, .4);
+    border: 3px solid rgba(0, 0, 0, 0);
+    outline: 3px solid var(--ms_col_sec);
+}
+
+.ms_ps5_hover{
+    transition: .5;
+}
+
+.ms_ps5_hover:hover{
+    filter: grayscale(0);
+    border-bottom: 3px solid var(--ms_col_sec);
+    cursor: pointer;
+}
+
+.ms_hover_link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ms_hover_dropdown_item:hover{
+    outline: 1px solid var(--ms_col_first);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: white;
+}
+
+.ms_link_footer:hover{
+    text-decoration: underline;
+    color: white;
+}
