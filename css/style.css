@@ -21,10 +21,11 @@
 }
 
 .ms_dropdown_menu{
-    width: 100vw;
+    width: 100%;
     border-radius: 0!important;
     margin-top: -0.5px !important;
     border: 0 solid black !important; 
+    overflow-x: hidden;
 }
 
 .ms_border_bot_drop{
@@ -39,6 +40,7 @@
     border: 0;
     content: "";
     transform: translateY(6px);
+    transition: 0.2s;
 }
 
 .dropdown-toggle.show::after{
@@ -120,6 +122,10 @@
 }
 
 /* general */
+
+body{
+    overflow-x: hidden;
+}
 
 .ms_registered{
     font-size: .9rem; 
@@ -255,7 +261,7 @@
 /* media */
 
 @media all and (min-width: 1900px){
-    
+
     .ms_jumbo_content{
         margin-top: 600px;
     }
