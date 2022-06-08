@@ -31,6 +31,20 @@
     border-bottom: 1px solid #8a8a8a;    
 }
 
+.dropdown-toggle::after{
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    content: "";
+    transform: translateY(6px);
+}
+
+.dropdown-toggle.show::after{
+    transform: rotate(180deg);
+    /* vertical-align: bottom; */
+}
 /* jumbo */
 
 .ms_jumbotron{
@@ -236,4 +250,13 @@
 .ms_link_footer:hover{
     text-decoration: underline;
     color: white;
+}
+
+/* media */
+
+@media all and (min-width: 1900px){
+    
+    .ms_jumbo_content{
+        margin-top: 600px;
+    }
 }
